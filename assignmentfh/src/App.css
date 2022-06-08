@@ -1,0 +1,89 @@
+.header{
+  display:flex;
+  justify-content:space-between;
+}
+.header h3{
+  position: relative;
+  left: 8%;
+}
+
+
+.contents{
+  display: grid;
+  height: 800px;
+  gap: 10px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 50% 50% 50%;
+  position: relative;
+  left: 8%;
+  align-items:flex-end;
+}
+
+.contents :hover{
+  display: grid;
+  height: 800px;
+  gap: 10px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 50% 50% 50%;
+  position: relative;
+  left: 8%;
+  align-items:flex-end;
+  background-color: aliceblue;
+  width: 400px;
+  height: 400px;
+}
+
+.images{
+  width: 200px ;
+}
+
+.contents h4{
+  position: absolute;
+  width: 30%;
+}
+
+.nav{
+
+ height: 100%;
+ position: absolute;
+ background-color: white;
+ z-index: 1;
+}
+
+html {
+  overflow-x: hidden;
+  background-color: rgb(216, 216, 216);
+}
+
+.add{
+  height: 30px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: rgb(43, 71, 231);
+  color: white;
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.nav-bar{
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 0%;
+}
+
+
+.nav-bar a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar li{
+   margin-bottom: 30px;
+   margin-left: 0%;
+}
+.nav-bar li:hover{
+  margin-bottom: 30px;
+  margin-left: 0%;
+  background-color: rgb(216, 216, 216);
+}
